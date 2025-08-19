@@ -1,6 +1,13 @@
 # 📚 ForoHub
 
-*ForoHub* es una plataforma backend desarrollada con **Spring Boot 3**, **Spring Security**, **JWT**, **Java 21** y **JPA/Hibernate**, que permite la gestión de foros, usuarios, cursos, tópicos y respuestas. El proyecto sigue una arquitectura limpia y modular, asegurando mantenibilidad y escalabilidad.
+![Java](https://img.shields.io/badge/Java-21-blue?style=for-the-badge&logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.4-green?style=for-the-badge&logo=spring)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?style=for-the-badge&logo=mysql)
+![Status](https://img.shields.io/badge/status--version--1--liberado-yellow?style=for-the-badge)
+
+API REST para un sistema de foro, desarrollada como parte del Challenge de Alura Latam. Permite a los usuarios registrarse, crear tópicos de discusión, publicar respuestas y gestionar cursos.
+*ForoHub* es una plataforma backend desarrollada con **Spring Boot 3**, **Spring Security**, **JWT**, **Java 21** y **JPA/Hibernate**. 
+El proyecto sigue una arquitectura limpia y modular, asegurando mantenibilidad y escalabilidad.
 
 ---
 
