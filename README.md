@@ -1,3 +1,14 @@
+
+<div align="center">
+  <h1 align="center">
+    <br />
+    <br />
+    <a href="https://[24kuant.github.io/challenge-amigo-secreto](https://github.com/24Kuant/forohub)/">
+      <img src="docs/portada-forohub.png" alt="♨️ imagen-foro-hub ⚙️" width="100%">
+    </a>
+  </h1>
+</div>
+
 # 📚 ForoHub
 
 ![Java](https://img.shields.io/badge/Java-21-blue?style=for-the-badge&logo=java)
@@ -31,7 +42,22 @@ La arquitectura de ForoHub se organiza en **tres capas principales**:
 * **Domain** → Contiene entidades, DTOs, servicios y repositorios.
 * **Infra** → Configuración de seguridad, manejo de errores y utilidades.
 
-![Arquitectura ForoHub](docs/forohub_architecture.png)
+![Arquitectura ForoHub](docs/diagrama-arquitectura.png)
+
+---
+
+## 🏛️ Base de Datos
+
+el diagrama Entidad Relación de ForoHub se organiza en **cinco tablas principales**:
+
+Descripción de las Relaciones
+* 📜 **Usuario** y **Perfil** (Muchos a Muchos): Un usuario puede tener múltiples perfiles y un perfil puede ser asignado a múltiples usuarios. Esto se gestiona a través de la tabla usuarios_perfiles.
+* 🔒 **Usuario** y **Tópico** (Uno a Muchos): Un usuario puede crear muchos tópicos.
+* 👥 **Usuario** y **Respuesta** (Uno a Muchos): Un usuario puede escribir muchas respuestas.
+* 🎓 **Curso** y **Tópico** (Uno a Muchos): Un curso puede tener muchos tópicos asociados.
+* 🔑 **Tópico** y **Respuesta** (Uno a Muchos): Un tópico puede tener muchas respuestas.
+
+![Base de Datos ForoHub](docs/diagrama-entidad-relacion.png)
 
 ---
 
